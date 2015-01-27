@@ -253,7 +253,7 @@ Tout d'abord, construisez un fichier layout :
     philosophie est la même pour les templates PHP.
 
 Ce template définit le squelette HTML de base d'un document constitué simplement
-de deux colonnes. Dans cette exemple, trois espaces ``{% block %}`` sont définis
+de deux colonnes. Dans cet exemple, trois espaces ``{% block %}`` sont définis
 (``title``, ``sidebar`` et ``body``). Chacun de ces blocs peut être soit
 surchargé dans un template enfant ou soit conserver leur code d'origine. Ce
 template peut aussi être rendu directement. Dans ce cas, les blocs ``title``,
